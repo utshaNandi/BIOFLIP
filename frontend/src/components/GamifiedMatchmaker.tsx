@@ -5,10 +5,9 @@ import { X, Heart } from 'lucide-react';
 interface Props {
   ligands: any[];
   protein: any;
-  onQueueEmpty: () => void;
 }
 
-export const GamifiedMatchmaker: React.FC<Props> = ({ ligands, protein, onQueueEmpty }) => {
+export const GamifiedMatchmaker: React.FC<Props> = ({ ligands, protein }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const controls = useAnimation();
   const [feedback, setFeedback] = useState<'idle' | 'success' | 'failure'>('idle');

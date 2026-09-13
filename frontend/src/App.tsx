@@ -14,7 +14,7 @@ const HARDCODED_PROTEINS = [
 
 export default function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
-  const [selectedProtein, setSelectedProtein] = useState(HARDCODED_PROTEINS[0]);
+  const selectedProtein = HARDCODED_PROTEINS[0];
   const [ligands, setLigands] = useState<any[]>([]);
 
   // Simple Native Router[cite: 3]
@@ -90,7 +90,6 @@ export default function App() {
           key={selectedProtein.id} 
           ligands={ligands} 
           protein={selectedProtein}
-          onQueueEmpty={() => console.log("Queue finished")}
         />
       )}
     </div>
