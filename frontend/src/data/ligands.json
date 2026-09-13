@@ -1,0 +1,65 @@
+[
+  {
+    "id": "gefitinib",
+    "name": "Gefitinib",
+    "formula": "C22H24ClFN4O3",
+    "smiles": "COC1=C(OCC2CCOCC2)C=C2C(=C1)N=CN=C2NC3=CC(=C(C=C3)F)Cl",
+    "molecularWeight": 446.9,
+    "logP": 4.15,
+    "tpsa": 68.7,
+    "hbd": 1,
+    "hba": 7,
+    "rotatableBonds": 7,
+    "charge": 0,
+    "predictedAffinity": -8.7,
+    "compatibilityScore": 93,
+    "compatibilityBreakdown": {
+      "shapeFit": 94,
+      "hydrophobicFit": 91,
+      "hBondFit": 87,
+      "chargeFit": 90
+    }
+  },
+  {
+    "id": "erlotinib",
+    "name": "Erlotinib",
+    "formula": "C22H23N3O4",
+    "smiles": "COCCOC1=C(OCCOC)C=C2C(=C1)N=CN=C2NC3=CC=CC(=C3)C#C",
+    "molecularWeight": 393.4,
+    "logP": 3.27,
+    "tpsa": 74.7,
+    "hbd": 1,
+    "hba": 6,
+    "rotatableBonds": 8,
+    "charge": 0,
+    "predictedAffinity": -8.2,
+    "compatibilityScore": 89,
+    "compatibilityBreakdown": {
+      "shapeFit": 88,
+      "hydrophobicFit": 85,
+      "hBondFit": 89,
+      "chargeFit": 92
+    }
+  },
+  {
+    "id": "aspirin",
+    "name": "Aspirin",
+    "formula": "C9H8O4",
+    "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+    "molecularWeight": 180.16,
+    "logP": 1.19,
+    "tpsa": 63.6,
+    "hbd": 1,
+    "hba": 4,
+    "rotatableBonds": 2,
+    "charge": -1,
+    "predictedAffinity": -3.8,
+    "compatibilityScore": 42,
+    "compatibilityBreakdown": {
+      "shapeFit": 32,
+      "hydrophobicFit": 45,
+      "hBondFit": 50,
+      "chargeFit": 41
+    }
+  }
+]

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #FDFBF7;
+  --color-sand: #E5D9C5;
+  --color-sage: #8F9B82;
+  --color-charcoal: #2C2C2C;
+  --color-terracotta: #D98371;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-ivory text-charcoal antialiased;
+  }
+}

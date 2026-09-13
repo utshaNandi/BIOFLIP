@@ -1,0 +1,34 @@
+[
+  {
+    "id": "egfr",
+    "name": "EGFR (Epidermal Growth Factor Receptor)",
+    "pdbId": "1M17",
+    "category": "Receptor Tyrosine Kinase",
+    "description": "Crucial driver in non-small cell lung cancer. Possesses a deep hydrophobic pocket flanked by hinge residues.",
+    "personality": {
+      "hydrophobicity": 82,
+      "polarity": 45,
+      "charge": -15,
+      "hBondPotential": 84,
+      "flexibility": 35,
+      "archetype": "Selective & Hydrophobic"
+    },
+    "knownLigandCount": 142
+  },
+  {
+    "id": "drd2",
+    "name": "Dopamine D2 Receptor",
+    "pdbId": "6CM4",
+    "category": "G-Protein Coupled Receptor",
+    "description": "Primary clinical target for antipsychotics. Features an aromatic-rich orthosteric binding site.",
+    "personality": {
+      "hydrophobicity": 74,
+      "polarity": 55,
+      "charge": -40,
+      "hBondPotential": 68,
+      "flexibility": 72,
+      "archetype": "Flexible & Aromatic"
+    },
+    "knownLigandCount": 89
+  }
+]
